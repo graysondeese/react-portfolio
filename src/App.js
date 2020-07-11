@@ -166,20 +166,8 @@ function App() {
           <div className="innerContact">
             <h1 className="headings">Contact</h1>
             <div className="mainHr" />
-            <form action="https://formspree.io/mzbjaylo" method="POST">
-              <label>
-                <input type="text" name="name" placeholder="Name" />
-              </label>
-              <label>
-                <input type="text" name="_replyto" placeholder="Email" />
-              </label>
-              <label>
-                <textarea type="text" name="message" placeholder="Your Message" defaultValue={""} />
-              </label>
-              <button type="submit" className="submit-btn">Send Message</button> <br />
-              <h4>Email: graysondeese@gmail.com</h4>
+            <h4>Email: graysondeese@gmail.com</h4>
               <h4>Phone: 980-621-3400</h4>
-            </form>
           </div>
         </div>
         <div className="footer">

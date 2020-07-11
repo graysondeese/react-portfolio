@@ -248,32 +248,7 @@ body {
   flex-direction: column;
   padding: ;
 }
-.innerContact form {
-  text-align: center;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
-.innerContact form ::placeholder {
-  color: black;
-}
-.innerContact input {
-  margin: 0 0 0 3px;
-  padding: 10px 15px;
-  background: #d0d0d0;
-  width: 400px;
-  border: black;
-}
-.innerContact textarea {
-  margin: 0 0 0 3px;
-  padding: 10px 15px;
-  background: #d0d0d0;
-  width: 400px;
-  border: black;
-}
+
 .submit-btn {
   color: white;
   background: #000;
