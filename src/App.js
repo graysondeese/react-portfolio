@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        {/* header */}
         <div className="header">
           <div className="innerHeader">
             <div className="logoContainer">
@@ -19,7 +18,7 @@ function App() {
             </div>
           </div>
         </div>
-        {/* sidebar */}
+     
         <nav className="sidebar">
           <ul className="navList">
             <li className="navItem">
@@ -40,13 +39,13 @@ function App() {
             </li>
           </ul>
         </nav>
-        {/* ==== Landing Page ====*/}
+       
         <div className="maintainer">
           <h1>Grayson Deese</h1>
           <h2>Software Engineer</h2>
           <a href="#portfolio">See Projects</a>
         </div>
-        {/* Content */}
+       
         <div className="contentContainer">
           <div className="content">
             <h1 className="headings" id="about">About</h1>
@@ -82,13 +81,13 @@ function App() {
             </div>
           </div>
         </div>
-        {/* 🔥Portfolio🔥 */}
+     
         <h1 className="headings" id="portfolio">Portfolio</h1>
         <div className="mainHr" />
         <div className="container-fluid mb-5">
-          {/* row 1 */}
+         
           <div className="row">
-            {/* Quiz Stack */}
+           
             <div className="col-md-6 text-center mb-4">
               <h2>Quiz Stack</h2>
               <p>JavaScript, MySQL, Sequelize, Handlebars Node.JS, HTML, CSS</p>
@@ -100,7 +99,7 @@ function App() {
               </p>
               <img className="portfolioPics" src="Assets/Images/qs-pic.PNG" alt="Quiz Stack" />
             </div>
-            {/* Workout Tracker */}
+            
             <div className="col-md-6 text-center mb-4">
               <h2>Workout Tracker</h2>
               <p>JavaScript, MongoDB, Mongoose, Node.JS, HTML, CSS</p>
@@ -114,9 +113,9 @@ function App() {
             </div>
           </div>
           <div className="cardBorder" />
-          {/* row 2 */}
+          
           <div className="row">
-            {/* InTown */}
+            
             <div className="col-md-6 text-center mb-4 ">
               <h2>INTown</h2>
               <p>
@@ -131,7 +130,7 @@ function App() {
               </p>
               <img className="portfolioPics" src="Assets/Images/INTown-pic.PNG" alt="INTown" />
             </div>
-            {/* Day Planner */}
+           
             <div className="col-md-6 text-center mb-4">
               <h2>Day Planner</h2>
               <p>JavaScript, jQuery, HTML, CSS</p>
@@ -145,9 +144,9 @@ function App() {
             </div>
           </div>
           <div className="cardBorder" />
-          {/* row 3 */}
+          
           <div className="row">
-            {/* Weather Dashboard */}
+           
             <div className="col-md-12 text-center mb-4">
               <h2>Weather Dashboard</h2>
               JavaScript, jQuery, Open Weather API, HTML, CSS
@@ -161,13 +160,25 @@ function App() {
             </div>
           </div>
         </div>
-        {/* 🔥contact🔥 */}
+        
         <div id="contact">
           <div className="innerContact">
             <h1 className="headings">Contact</h1>
             <div className="mainHr" />
-            <h4>Email: graysondeese@gmail.com</h4>
+            <form action="https://formspree.io/mzbjaylo" method="POST">
+              <label>
+                <input type="text" name="name" placeholder="Name" />
+              </label>
+              <label>
+                <input type="text" name="_replyto" placeholder="Email" />
+              </label>
+              <label>
+                <textarea type="text" name="message" placeholder="Your Message" defaultValue={""} />
+              </label>
+              <button type="submit" className="submit-btn">Send Message</button> <br />
+              <h4>Email: graysondeese@gmail.com</h4>
               <h4>Phone: 980-621-3400</h4>
+            </form>
           </div>
         </div>
         <div className="footer">
