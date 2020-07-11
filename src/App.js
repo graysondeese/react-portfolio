@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -70,14 +71,14 @@ function App() {
               build superior experiences on the web.
             </p>
             <div className="skillHolder">
-              <img src="./Assets/Images/skills/react.736da783.png" alt="React" />
-              <img src="./Assets/Images/skills/78-788134_javascript-logo-hd-png-download.png" alt="JavaScript" />
-              <img src="./Assets/Images/skills/download.png" alt="Node.js" />
-              <img src="./Assets/Images/skills/385-3850320_png-transparent-mongodb-icon-mongodb-logo-png-download.png" alt="MongoDB" />
-              <img src="./Assets/Images/skills/download (1).png" alt="HTML" />
-              <img src="./Assets/Images/skills/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" alt="Css" />
-              <img src="./Assets/Images/skills/282-2827422_mysql-logo-png-mysql-png-transparent-png.png" alt="MySQL" />
-              <img src="./Assets/Images/skills/1_9RqBEDU9Mbg6XM8O6d7Q9A.png" alt="Bootstrap" />
+              {/* <img src="./Assets/Images/skills/react.736da783.png" alt="React" /> */}
+              {/* <img src="./Assets/Images/skills/78-788134_javascript-logo-hd-png-download.png" alt="JavaScript" /> */}
+              {/* <img src="./Assets/Images/skills/download.png" alt="Node.js" /> */}
+              {/* <img src="./Assets/Images/skills/385-3850320_png-transparent-mongodb-icon-mongodb-logo-png-download.png" alt="MongoDB" /> */}
+              {/* <img src="./Assets/Images/skills/download (1).png" alt="HTML" /> */}
+              {/* <img src="./Assets/Images/skills/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" alt="Css" /> */}
+              {/* <img src="./Assets/Images/skills/282-2827422_mysql-logo-png-mysql-png-transparent-png.png" alt="MySQL" /> */}
+              {/* <img src="./Assets/Images/skills/1_9RqBEDU9Mbg6XM8O6d7Q9A.png" alt="Bootstrap" /> */}
             </div>
           </div>
         </div>
@@ -97,7 +98,7 @@ function App() {
               <p>
                 <a href="https://github.com/graysondeese/QuizStack" target="_blank">GitHub Repository</a>
               </p>
-              <img className="portfolioPics" src="Assets/Images/qs-pic.PNG" alt="Quiz Stack" />
+              {/* <img className="portfolioPics" src="Assets/Images/qs-pic.PNG" alt="Quiz Stack" /> */}
             </div>
             
             <div className="col-md-6 text-center mb-4">
@@ -109,7 +110,7 @@ function App() {
               <p>
                 <a href="https://github.com/graysondeese/WorkoutTracker" target="_blank">GitHub Repository</a>
               </p>
-              <img className="portfolioPics" src="Assets/Images/wt-pic.PNG" alt="Workout Tracker" />
+              {/* <img className="portfolioPics" src="Assets/Images/wt-pic.PNG" alt="Workout Tracker" /> */}
             </div>
           </div>
           <div className="cardBorder" />
@@ -128,7 +129,7 @@ function App() {
               <p>
                 <a href="https://github.com/graysondeese/INTown" target="_blank">GitHub Repository</a>
               </p>
-              <img className="portfolioPics" src="Assets/Images/INTown-pic.PNG" alt="INTown" />
+              {/* <img className="portfolioPics" src="Assets/Images/INTown-pic.PNG" alt="INTown" /> */}
             </div>
            
             <div className="col-md-6 text-center mb-4">
@@ -140,7 +141,7 @@ function App() {
               <p>
                 <a href="https://github.com/graysondeese/DayPlanner" target="_blank">GitHub Repository</a>
               </p>
-              <img className="portfolioPics" src="Assets/Images/DayPlanner-pic.PNG" alt="Day Planner" />
+              {/* <img className="portfolioPics" src="Assets/Images/DayPlanner-pic.PNG" alt="Day Planner" /> */}
             </div>
           </div>
           <div className="cardBorder" />
@@ -156,7 +157,7 @@ function App() {
               <p>
                 <a href="https://github.com/graysondeese/WeatherDashboard" target="_blank">GitHub Repository</a>
               </p>
-              <img className="portfolioPics" src="Assets/Images/wdPic.PNG" alt="Weather Dashboard" />
+              {/* <img className="portfolioPics" src="Assets/Images/wdPic.PNG" alt="Weather Dashboard" /> */}
             </div>
           </div>
         </div>
